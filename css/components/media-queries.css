@@ -1,0 +1,21 @@
+/* iPhone XR */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+        nav ul, .colonnes {
+            display: flex;
+            flex-direction: column;
+        }
+  }
+
+    /* iPad Air */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1.0) { 
+        .colonnes {
+            display: flex;
+            flex-direction: column;
+        }
+}
