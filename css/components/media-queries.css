@@ -3,8 +3,29 @@
     and (device-width : 414px) 
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio: 2) { 
-        nav ul, .colonnes {
+        .colonnes {
             display: flex;
+            flex-direction: column;
+        }
+
+        nav ul {
+            flex-direction: row;
+        }
+
+        #navbar {
+            display: none;
+        }
+
+        .mobile-navbar {
+            display: inline !important;
+        }
+
+        #navbar-height {
+            display: none;
+        }
+
+        .container {
+            display: flex !important;
             flex-direction: column;
         }
   }

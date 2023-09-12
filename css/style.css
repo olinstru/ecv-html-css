@@ -87,6 +87,15 @@ nav a:hover, nav i:hover {
 nav i {
     color: var(--dark-green);
     margin-right: 7px;
+    font-size: 1.3rem;
+}
+
+.fa-paper-plane:before {
+    color: var(--white);
+}
+
+.mobile-navbar {
+    display: none;
 }
 
 i {
@@ -123,8 +132,13 @@ input {
     border-radius: 30px;
 }
 
-#grid-section {
+section h2 {
+    margin-top: 3em;
     text-align: left;
+}
+
+.contact-info {
+    font-size: 1.2em;
 }
 
 .card-category {
@@ -168,6 +182,7 @@ input {
 
 .colonnes {
     display: flex;
+    gap: 2em;
 }
 
 .col {
